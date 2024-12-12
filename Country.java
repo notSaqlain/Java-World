@@ -17,7 +17,7 @@ public class Country {
                     System.out.println("Errore: riga non conforme");
                     continue;
                 }
-                Paese p = new Paese(fld[0], fld[1], fld[2]);
+                Paese p = new Paese(fld[1], fld[2], fld[3]);
                 elenco.add(p);
             }
             sc.close();
