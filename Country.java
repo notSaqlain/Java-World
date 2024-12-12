@@ -13,7 +13,7 @@ public class Country {
             while (sc.hasNextLine()) {
                 String riga = sc.nextLine();
                 String fld[] = riga.split(",");
-                if (fld.length != 3) {
+                if (fld.length != 5) {
                     System.out.println("Errore: riga non conforme");
                     continue;
                 }
@@ -27,7 +27,14 @@ public class Country {
     }
     
     public Country(String FileCSV) {
-        System.out.println("Country constructor");
         elenco = new ArrayList<>();
+        LoadFile(FileCSV);
     }
+
+    @Override
+    public String toString() {
+        return "Country [elenco=" + elenco + "]";
+    }
+
+    
 }

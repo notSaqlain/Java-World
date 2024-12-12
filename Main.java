@@ -8,6 +8,7 @@ public class Main {
         Paese p1 = new Paese("Italia", "Europa", "60");
         System.out.println(p1);
 
-        
+        Country c1 = new Country("./data/paesi.csv");
+        System.out.println(c1);
     }
 }
