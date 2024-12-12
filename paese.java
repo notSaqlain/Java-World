@@ -1,3 +1,3 @@
-public class paese {
+public class Paese {
     
 }
