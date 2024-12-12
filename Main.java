@@ -4,8 +4,10 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
-        File dati = new File("./data/paesi.csv");
-        ArrayList<Country> paesi = new ArrayList<>();
+        
+        Paese p1 = new Paese("Italia", "Europa", "60");
+        System.out.println(p1);
+
         
     }
 }

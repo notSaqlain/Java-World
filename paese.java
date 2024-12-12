@@ -1,7 +1,7 @@
 public class Paese {
-    String nome;
-    String continente;
-    String popolazione;
+    private String nome;
+    private String continente;
+    private String popolazione;
 
     public Paese(String nome, String continente, String popolazione) {
         this.nome = nome;
