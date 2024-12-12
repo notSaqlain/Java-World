@@ -33,7 +33,11 @@ public class Country {
 
     @Override
     public String toString() {
-        return "Country [elenco=" + elenco + "]";
+        String s = "";
+        for (Paese p : elenco) {
+            s += p.toString() + "\n";
+        }
+        return s;
     }
 
     
