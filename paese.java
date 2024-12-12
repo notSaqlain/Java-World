@@ -32,4 +32,13 @@ public class Paese {
     public void setPopolazione(String popolazione) {
         this.popolazione = popolazione;
     }
+
+    @Override
+    public String toString() {
+        return "Paese{" +
+                "nome='" + nome + '\'' +
+                ", continente='" + continente + '\'' +
+                ", popolazione='" + popolazione + '\'' +
+                '}';
+    }
 }
